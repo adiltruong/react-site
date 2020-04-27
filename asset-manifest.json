@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/adiltruong.github.io/react-site/static/css/main.d1b05096.chunk.css",
-    "main.js": "/adiltruong.github.io/react-site/static/js/main.03c8bb68.chunk.js",
-    "main.js.map": "/adiltruong.github.io/react-site/static/js/main.03c8bb68.chunk.js.map",
-    "runtime-main.js": "/adiltruong.github.io/react-site/static/js/runtime-main.3d8f19fd.js",
-    "runtime-main.js.map": "/adiltruong.github.io/react-site/static/js/runtime-main.3d8f19fd.js.map",
-    "static/js/2.f3c22ab0.chunk.js": "/adiltruong.github.io/react-site/static/js/2.f3c22ab0.chunk.js",
-    "static/js/2.f3c22ab0.chunk.js.map": "/adiltruong.github.io/react-site/static/js/2.f3c22ab0.chunk.js.map",
-    "index.html": "/adiltruong.github.io/react-site/index.html",
-    "precache-manifest.14df1274dfc6add323ffc1121a13c386.js": "/adiltruong.github.io/react-site/precache-manifest.14df1274dfc6add323ffc1121a13c386.js",
-    "service-worker.js": "/adiltruong.github.io/react-site/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/adiltruong.github.io/react-site/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.f3c22ab0.chunk.js.LICENSE.txt": "/adiltruong.github.io/react-site/static/js/2.f3c22ab0.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/adiltruong.github.io/react-site/static/media/logo.5d5d9eef.svg"
+    "main.css": "/react-site/static/css/main.d1b05096.chunk.css",
+    "main.js": "/react-site/static/js/main.c695e28b.chunk.js",
+    "main.js.map": "/react-site/static/js/main.c695e28b.chunk.js.map",
+    "runtime-main.js": "/react-site/static/js/runtime-main.dc3bcaa7.js",
+    "runtime-main.js.map": "/react-site/static/js/runtime-main.dc3bcaa7.js.map",
+    "static/js/2.f3c22ab0.chunk.js": "/react-site/static/js/2.f3c22ab0.chunk.js",
+    "static/js/2.f3c22ab0.chunk.js.map": "/react-site/static/js/2.f3c22ab0.chunk.js.map",
+    "index.html": "/react-site/index.html",
+    "precache-manifest.fbff4cc1a438464d8f194f2929e3b728.js": "/react-site/precache-manifest.fbff4cc1a438464d8f194f2929e3b728.js",
+    "service-worker.js": "/react-site/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/react-site/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.f3c22ab0.chunk.js.LICENSE.txt": "/react-site/static/js/2.f3c22ab0.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/react-site/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3d8f19fd.js",
+    "static/js/runtime-main.dc3bcaa7.js",
     "static/js/2.f3c22ab0.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.03c8bb68.chunk.js"
+    "static/js/main.c695e28b.chunk.js"
   ]
 }
