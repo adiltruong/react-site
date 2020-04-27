@@ -37,6 +37,25 @@
   }
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+h2 {
+  padding: 10px;
+}
+
 body {
   background-color: powderblue;
 }
