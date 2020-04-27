@@ -3,18 +3,12 @@ import React, {Component} from 'react';
 export class Tab extends Component {
   addStyling = () => {
     if(this.props.tab.id === this.props.activeTab){
-      return {backgroundColor: 'green'}
+      return 'active'
+      }
     }
-    else {
-      return {backgrounfColor: 'gray'}
-    }
-  }
   render() {
     return (
-      <div className='tab' style={this.addStyling()}
-           onClick={this.props.changeTab.bind(this, this.props.tab.id)}>
-        <h2>{this.props.tab.title}</h2>
-      </div>
+           <li onClick={this.props.changeTab.bind(this, this.props.tab.id)} className= {this.addStyling()}> <a><span>{this.props.tab.title}</span></a></li>
     );
   }
 }

@@ -3,11 +3,16 @@ import Tab from './Tab';
 
 export class Tablist extends Component {
   render() {
-    return this.props.tabs.map((indtab) => (
+    const tab = this.props.tabs.map((indtab) => (
       <Tab tab={indtab}
       changeTab={this.props.changeTab}
-      activeTab={this.props.activeTab}/>
-    ));
+      activeTab={this.props.activeTab}/> ));
+    return (
+        <ul id="nav-bar-list">
+          {tab}
+        </ul>
+
+    );
 
   }
 }

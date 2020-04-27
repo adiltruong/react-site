@@ -39,7 +39,7 @@ export class App extends Component {
     return (
       <div className="body">
         <div className="nav-bar">
-          <Tablist tabs={tabs}
+          <Tablist className="tab" tabs={tabs}
           changeTab={this.changeTab}
           activeTab={this.state.activeTab}/>
         </div>
