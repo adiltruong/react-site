@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/adiltruong.github.io/react-site/static/css/main.b79d7c3f.chunk.css",
-    "main.js": "/adiltruong.github.io/react-site/static/js/main.74f6f9ba.chunk.js",
-    "main.js.map": "/adiltruong.github.io/react-site/static/js/main.74f6f9ba.chunk.js.map",
+    "main.js": "/adiltruong.github.io/react-site/static/js/main.6e2eb3ea.chunk.js",
+    "main.js.map": "/adiltruong.github.io/react-site/static/js/main.6e2eb3ea.chunk.js.map",
     "runtime-main.js": "/adiltruong.github.io/react-site/static/js/runtime-main.3d8f19fd.js",
     "runtime-main.js.map": "/adiltruong.github.io/react-site/static/js/runtime-main.3d8f19fd.js.map",
-    "static/js/2.f53d74e0.chunk.js": "/adiltruong.github.io/react-site/static/js/2.f53d74e0.chunk.js",
-    "static/js/2.f53d74e0.chunk.js.map": "/adiltruong.github.io/react-site/static/js/2.f53d74e0.chunk.js.map",
+    "static/js/2.f2d97486.chunk.js": "/adiltruong.github.io/react-site/static/js/2.f2d97486.chunk.js",
+    "static/js/2.f2d97486.chunk.js.map": "/adiltruong.github.io/react-site/static/js/2.f2d97486.chunk.js.map",
     "index.html": "/adiltruong.github.io/react-site/index.html",
-    "precache-manifest.3dccbc7abcede207003b4ca239198092.js": "/adiltruong.github.io/react-site/precache-manifest.3dccbc7abcede207003b4ca239198092.js",
+    "precache-manifest.fc6a2af53b224ed5dafe3e13e2452cc2.js": "/adiltruong.github.io/react-site/precache-manifest.fc6a2af53b224ed5dafe3e13e2452cc2.js",
     "service-worker.js": "/adiltruong.github.io/react-site/service-worker.js",
     "static/css/main.b79d7c3f.chunk.css.map": "/adiltruong.github.io/react-site/static/css/main.b79d7c3f.chunk.css.map",
-    "static/js/2.f53d74e0.chunk.js.LICENSE.txt": "/adiltruong.github.io/react-site/static/js/2.f53d74e0.chunk.js.LICENSE.txt",
+    "static/js/2.f2d97486.chunk.js.LICENSE.txt": "/adiltruong.github.io/react-site/static/js/2.f2d97486.chunk.js.LICENSE.txt",
     "static/media/dog1.jpg": "/adiltruong.github.io/react-site/static/media/dog1.d6057904.jpg",
     "static/media/dog2.jpg": "/adiltruong.github.io/react-site/static/media/dog2.d625ad7b.jpg",
     "static/media/dog3.jpg": "/adiltruong.github.io/react-site/static/media/dog3.5bb87a93.jpg",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.3d8f19fd.js",
-    "static/js/2.f53d74e0.chunk.js",
+    "static/js/2.f2d97486.chunk.js",
     "static/css/main.b79d7c3f.chunk.css",
-    "static/js/main.74f6f9ba.chunk.js"
+    "static/js/main.6e2eb3ea.chunk.js"
   ]
 }
