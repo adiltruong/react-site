@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Tablist from './Components/Tablist';
 import Body from './Components/Body';
 import './App.css'
+import ScrollUpButton from 'react-scroll-up-button'
 
 export class App extends Component {
   constructor(){
@@ -14,6 +15,11 @@ export class App extends Component {
         activeTab: id
       })
     }
+  }
+
+  backToTop = () => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
   }
 
   render(){
@@ -46,6 +52,9 @@ export class App extends Component {
         <div className = "main-body">
           <Body activeTab={this.state.activeTab}/>
         </div>
+        <div>
+		      <ScrollUpButton />
+	      </div>
       </div>
     )
   }
