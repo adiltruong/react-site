@@ -3,6 +3,7 @@ import About from './About';
 import Experiences from './Experiences';
 import Gallery from './Gallery';
 import Contact from './Contact';
+import Guestbook from './Guestbook';
 
 export class Body extends Component {
   displayContent = () => {
@@ -13,8 +14,10 @@ export class Body extends Component {
       return <Experiences/>
     } else if (activePage === 3) {
       return <Gallery/>
-    } else {
+    } else if (activePage === 4) {
       return <Contact/>
+    } else {
+      return<Guestbook/>
     }
   }
   render() {
