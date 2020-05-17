@@ -21,21 +21,18 @@ export default class Movies extends Component {
 
     render() {
 
-        const movies = [ "tt0325980", "tt0087469", "tt0816692", "tt4633694", "tt1211837", "tt8946378", "tt5311514", "tt1375666"];
+        const movies = [ 'tt0325980', 'tt0087469', 'tt0816692', 'tt4633694', 'tt1211837', 'tt8946378', 'tt5311514', 'tt1375666'];
 
-        const movieList = movies.map ((movie) => (
-            <ImdbMovie handleClick={this.changeActiveMovie.bind(this)} key={movie} movieID={movie}></ImdbMovie>
-        ));
+        // const movieList = movies.map ((movie) => (
+        //     //<ImdbMovie handleClick={this.changeActiveMovie.bind(this)} key={movie} movieID={movie}></ImdbMovie>
+        // ));
 
-        return (
-            <div id="main-body">
-                <div id="movie-list" className="movie-list">
-                    {movieList}
+        return(
+          <div>
+          <div id="movie-list" className="movie-list">
+                <ImdbMovie handleClick={this.changeActiveMovie.bind(this)} key={'tt0325980'} movieID={'tt0325980'}></ImdbMovie>
                 </div>
-
-               <MovieModal/>
-
-		    </div>
+          </div>
         )
     }
 }

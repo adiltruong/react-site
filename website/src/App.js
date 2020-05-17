@@ -4,7 +4,6 @@ import Body from './Components/Body';
 import './App.css'
 import config from './config.js'
 import ScrollUpButton from 'react-scroll-up-button'
-const firebase = require('firebase')
 
 export class App extends Component {
   constructor(){
@@ -24,31 +23,6 @@ export class App extends Component {
   backToTop = () => {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
-  }
-
-  componentDidMount() {
-    if (!firebase.apps.length) {
-      firebase.initializeApp(config)
-    }
-
-    let ref = firebase.database().ref('guestBookData')
-    ref.on('value', snapshot => {
-      const data = snapshot.val()
-      this.setState({firebaseData: data})
-      console.log(data)
-    })
-
-  }
-
-  componentDidUpdate(prevProps, prevState, snapshot){
-    if(this.state.shouldUpdate !== prevState.shouldUpdate){
-      let ref = firebase.ref('guestBookData')
-      ref.on('value', snapshot => {
-        const data = snapshot.val()
-        this.setState({firebaseData: data})
-        console.log(data)
-      })
-    }
   }
 
   render(){
