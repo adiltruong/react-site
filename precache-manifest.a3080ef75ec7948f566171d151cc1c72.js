@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0f921300e780dbb4796922795cfd7a07",
+    "revision": "e527656ed00541cb1ed09818c8782e2f",
     "url": "/react-site/index.html"
   },
   {
-    "revision": "7926c3ad55006a53ce2e",
-    "url": "/react-site/static/css/main.a28c54d7.chunk.css"
+    "revision": "48a8c52999bb94e76fbb",
+    "url": "/react-site/static/css/main.bb46e0ff.chunk.css"
   },
   {
-    "revision": "fd97aab7de4f1ced51ac",
-    "url": "/react-site/static/js/2.4be07677.chunk.js"
+    "revision": "6f84353ab76c9d7dbabd",
+    "url": "/react-site/static/js/2.34ad4df6.chunk.js"
   },
   {
     "revision": "78aa0676509153305bde072ed1e9cb1c",
-    "url": "/react-site/static/js/2.4be07677.chunk.js.LICENSE.txt"
+    "url": "/react-site/static/js/2.34ad4df6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7926c3ad55006a53ce2e",
-    "url": "/react-site/static/js/main.38c09de4.chunk.js"
+    "revision": "48a8c52999bb94e76fbb",
+    "url": "/react-site/static/js/main.c1668d0a.chunk.js"
   },
   {
     "revision": "e443f8b832b330e9d110",
     "url": "/react-site/static/js/runtime-main.dc3bcaa7.js"
+  },
+  {
+    "revision": "d41d8cd98f00b204e9800998ecf8427e",
+    "url": "/react-site/static/media/ImdbMovie.d41d8cd9.bin"
   },
   {
     "revision": "d6057904a65ae5c1a295ab6e4e9c3993",
