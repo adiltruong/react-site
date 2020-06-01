@@ -5,6 +5,7 @@ import Gallery from './Gallery';
 import Contact from './Contact';
 import Guestbook from './Guestbook';
 import Movie from './Movie'
+import MovieList from './MovieList'
 
 export class Body extends Component {
   displayContent = () => {
@@ -19,8 +20,10 @@ export class Body extends Component {
       return <Contact/>
     } else if (activePage === 5) {
       return <Guestbook/>
-    } else {
+    } else if (activePage === 6){
       return <Movie/>
+    } else {
+      return <MovieList/>
     }
   }
   render() {
