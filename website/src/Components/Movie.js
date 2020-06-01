@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { ids } from "./assets/movies.json"
 import Popup from "reactjs-popup";
 const axios = require('axios');
 
@@ -14,7 +13,7 @@ export default class Movie extends Component {
  }
 
  getMovies() {
-     console.log(ids)
+     const ids = ["tt5323662", "tt0063442", "tt0988824", "tt10850932", "tt11239552", "tt1700841", "tt4633694", "tt6751668", "tt9335498", "tt3398540"];
      for(const id of ids) {
          axios({
              method: 'get',

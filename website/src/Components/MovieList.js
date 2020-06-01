@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from 'react';
-import { ids } from "./assets/movies.json"
 import Popup from "reactjs-popup";
 import config from '../config';
 const axios = require('axios');
