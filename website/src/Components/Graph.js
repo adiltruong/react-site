@@ -159,6 +159,7 @@ function Graph(props) {
             .join("circle")
             .attr("r", radius)
             .style("fill", color)
+            .call(drag(simulation, label));
 
         node.on("mouseover", (d) => {
             if(d.group === "actor") {
@@ -192,6 +193,37 @@ function Graph(props) {
         })
 
         return svg.node();
+    }
+
+    const drag = (sim, label) => {
+        const dragBegin = (d) => {
+            if(!d3.event.active) {
+                sim.alphaTarget(0.3).restart();
+                d.fx = d.x;
+                d.fy = d.y;
+            }
+        }
+
+        const dragged = (d) => {
+            d.fx = d3.event.x;
+            d.fy = d3.event.y;
+            label.attr("x", d.x)
+                .attr("y", d.y - 40);
+        }
+
+        const dragEnd = (d) => {
+            if(!d3.event.active) {
+                sim.alphaTarget(0);
+            }
+            d.fx = null;
+            d.fy = null;
+
+        }
+
+        return d3.drag()
+            .on("start", dragBegin)
+            .on("drag", dragged)
+            .on("end", dragEnd);
     }
 
     return (
