@@ -5,7 +5,8 @@ import Gallery from './Gallery';
 import Contact from './Contact';
 import Guestbook from './Guestbook';
 import Movie from './Movie'
-import MovieList from './MovieList'
+import MovieList from './MovieList';
+import Graph from './Graph';
 
 export class Body extends Component {
   displayContent = () => {
@@ -22,8 +23,10 @@ export class Body extends Component {
       return <Guestbook/>
     } else if (activePage === 6){
       return <Movie/>
-    } else {
+    } else if (activePage === 7){
       return <MovieList/>
+    } else {
+      return <Graph/>
     }
   }
   render() {

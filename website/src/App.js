@@ -53,6 +53,9 @@ export class App extends Component {
       }, {
         id: 7,
         title: 'Movie List II'
+      }, {
+        id: 8 ,
+        title: 'Graph'
       }
   ]
 
