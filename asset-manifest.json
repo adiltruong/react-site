@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/adiltruong.github.io/react-site/static/css/main.10508537.chunk.css",
-    "main.js": "/adiltruong.github.io/react-site/static/js/main.7381910f.chunk.js",
-    "main.js.map": "/adiltruong.github.io/react-site/static/js/main.7381910f.chunk.js.map",
-    "runtime-main.js": "/adiltruong.github.io/react-site/static/js/runtime-main.3d8f19fd.js",
-    "runtime-main.js.map": "/adiltruong.github.io/react-site/static/js/runtime-main.3d8f19fd.js.map",
-    "static/js/2.801ac792.chunk.js": "/adiltruong.github.io/react-site/static/js/2.801ac792.chunk.js",
-    "static/js/2.801ac792.chunk.js.map": "/adiltruong.github.io/react-site/static/js/2.801ac792.chunk.js.map",
-    "index.html": "/adiltruong.github.io/react-site/index.html",
-    "precache-manifest.52ccc5080fd8291b1edb4da93baa738e.js": "/adiltruong.github.io/react-site/precache-manifest.52ccc5080fd8291b1edb4da93baa738e.js",
-    "service-worker.js": "/adiltruong.github.io/react-site/service-worker.js",
-    "static/css/main.10508537.chunk.css.map": "/adiltruong.github.io/react-site/static/css/main.10508537.chunk.css.map",
-    "static/js/2.801ac792.chunk.js.LICENSE.txt": "/adiltruong.github.io/react-site/static/js/2.801ac792.chunk.js.LICENSE.txt",
-    "static/media/dog1.jpg": "/adiltruong.github.io/react-site/static/media/dog1.d6057904.jpg",
-    "static/media/dog2.jpg": "/adiltruong.github.io/react-site/static/media/dog2.d625ad7b.jpg",
-    "static/media/dog3.jpg": "/adiltruong.github.io/react-site/static/media/dog3.5bb87a93.jpg",
-    "static/media/ear.jpg": "/adiltruong.github.io/react-site/static/media/ear.3032e221.jpg",
-    "static/media/me_and_soju.jpg": "/adiltruong.github.io/react-site/static/media/me_and_soju.9172f3d3.jpg",
-    "static/media/medal.jpg": "/adiltruong.github.io/react-site/static/media/medal.5b832d36.jpg",
-    "static/media/wh.jpg": "/adiltruong.github.io/react-site/static/media/wh.0e8a0bd0.jpg"
+    "main.css": "/react-site/static/css/main.10508537.chunk.css",
+    "main.js": "/react-site/static/js/main.208d0b0a.chunk.js",
+    "main.js.map": "/react-site/static/js/main.208d0b0a.chunk.js.map",
+    "runtime-main.js": "/react-site/static/js/runtime-main.dc3bcaa7.js",
+    "runtime-main.js.map": "/react-site/static/js/runtime-main.dc3bcaa7.js.map",
+    "static/js/2.ad0853e5.chunk.js": "/react-site/static/js/2.ad0853e5.chunk.js",
+    "static/js/2.ad0853e5.chunk.js.map": "/react-site/static/js/2.ad0853e5.chunk.js.map",
+    "index.html": "/react-site/index.html",
+    "precache-manifest.d6a9b81430b5b78d8ad39414cd40935d.js": "/react-site/precache-manifest.d6a9b81430b5b78d8ad39414cd40935d.js",
+    "service-worker.js": "/react-site/service-worker.js",
+    "static/css/main.10508537.chunk.css.map": "/react-site/static/css/main.10508537.chunk.css.map",
+    "static/js/2.ad0853e5.chunk.js.LICENSE.txt": "/react-site/static/js/2.ad0853e5.chunk.js.LICENSE.txt",
+    "static/media/dog1.jpg": "/react-site/static/media/dog1.d6057904.jpg",
+    "static/media/dog2.jpg": "/react-site/static/media/dog2.d625ad7b.jpg",
+    "static/media/dog3.jpg": "/react-site/static/media/dog3.5bb87a93.jpg",
+    "static/media/ear.jpg": "/react-site/static/media/ear.3032e221.jpg",
+    "static/media/me_and_soju.jpg": "/react-site/static/media/me_and_soju.9172f3d3.jpg",
+    "static/media/medal.jpg": "/react-site/static/media/medal.5b832d36.jpg",
+    "static/media/wh.jpg": "/react-site/static/media/wh.0e8a0bd0.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3d8f19fd.js",
-    "static/js/2.801ac792.chunk.js",
+    "static/js/runtime-main.dc3bcaa7.js",
+    "static/js/2.ad0853e5.chunk.js",
     "static/css/main.10508537.chunk.css",
-    "static/js/main.7381910f.chunk.js"
+    "static/js/main.208d0b0a.chunk.js"
   ]
 }
