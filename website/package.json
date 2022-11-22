@@ -17,7 +17,7 @@
     "react-back2top": "^0.1.6",
     "react-dom": "^16.13.1",
     "react-iframe": "^1.8.0",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "react-scroll-up-button": "^1.6.4",
     "reactjs-popup": "^1.5.0"
   },
